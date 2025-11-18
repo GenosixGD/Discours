@@ -5,7 +5,7 @@ ApplicationWindow {
     id: window
     width: 800
     height: 600
-    title: "My Qt Quick Window"
+    title: "Main"
     visible: true
 
     Rectangle {
@@ -17,7 +17,7 @@ ApplicationWindow {
 
         Text {
             anchors.centerIn: parent
-            text: "Hello Qt Quick!"
+            text: "Test"
             font.pixelSize: 16
         }
     }
